@@ -1,24 +1,59 @@
-# Django-Signals
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyo
-*.pyd
-*.env
-db.sqlite3
-/media/
-staticfiles/
-*.log
-*.pot
 *.py[cod]
+*$py.class
+
+# C extensions
 *.so
-*.swp
-*~
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
 # Django stuff:
 *.log
-*.pot
-*.py[cod]
-*~ 
-__pycache__/
+local_settings.py
 db.sqlite3
-/media
-/staticfiles
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+.venv
